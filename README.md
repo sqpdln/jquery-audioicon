@@ -16,8 +16,11 @@ Parameters so far:
 =================
 
 url: 'path/to/audiofile',
+
 trigger: 'eventtype', //optional, default click
+
 gain: value between 0-1 //optional, default 0.8
+
 poly: value between 1-20 //optional, default 4
 
 $(element).audioicon({
