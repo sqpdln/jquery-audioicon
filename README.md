@@ -15,8 +15,9 @@ Accepted file formats varies across browsers, .wav is generally always ok.
 Parameters so far:
 =================
 
-url: 'path/to/audiofile',
-trigger: 'eventtype', //optional, default click
+url: 'path/to/audiofile'
+
+trigger: 'eventtype' //optional, default click
 
 gain: value between 0-1 //optional, default 0.8
 
