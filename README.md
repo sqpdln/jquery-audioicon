@@ -1,4 +1,5 @@
 jquery-audioicons
+Open licence.
 =================
 
 This jQuery plugin is in development, but functional in it's simplicity.

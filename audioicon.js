@@ -10,12 +10,17 @@
 
 			initialize = function() {
 				//init web audio context
-				try {
-					audioContext = new webkitAudioContext();
+				if(window.audioContext){
+					audioContext = window.audioContext;
 				}
-				catch(e) {
-					logg( 'Web Audio API is not supported in this browser');
-					return;
+				else{
+					try {
+						audioContext = window.audioContext = new webkitAudioContext();
+					}
+					catch(e) {
+						alert( 'Web Audio API is not supported in this browser');
+						return;
+					}
 				}
 				
 				if (url		!== undefined)	{loadBuffer();}			else {return logg('No valid url provided.');}
@@ -59,9 +64,6 @@
 			debug = true,
 			logg = function(str){
 				if (debug) {console.log(str);}
-			},
-			onError = function(){
-				logg( 'Something went wrong.');
 			};
 
 		initialize();
