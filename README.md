@@ -1,9 +1,6 @@
-
-=================
 jQuery-audioicons
-
-Open licence.
 =================
+Open licence
 
 This jQuery plugin is in development, but functional in it's simplicity.
 
@@ -27,7 +24,7 @@ $(element).audioicon({
 });
 
 =================
-Funktionality
+Functionality
 =================
 
 The audioContext is attached to the window, and so the same one is used for all instances.
