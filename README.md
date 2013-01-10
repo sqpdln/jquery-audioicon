@@ -21,7 +21,7 @@ gain: value between 0-1 //optional, default 0.8
 poly: value between 1-20 //optional, default 4
 
 $(element).audioicon({
-	key: 'value'
+key: 'value'
 });
 
 Functionality
