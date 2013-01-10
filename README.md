@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 jQuery-audioicons
 =================
 
