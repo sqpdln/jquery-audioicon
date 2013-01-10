@@ -1,3 +1,4 @@
 add licence
 start/stop +loop
-overlap t/f
+polyphony
+secure input parameters
